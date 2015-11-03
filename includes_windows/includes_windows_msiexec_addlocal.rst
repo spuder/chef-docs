@@ -14,6 +14,8 @@ The ``ADDLOCAL`` parameter adds two setup options that are specific to the |chef
      - Use to install the |chef client|.
    * - ``ChefServiceFeature``
      - Use to configure the |chef client| as a service in |windows|.
+   * - ``ChefPSModuleFeature``
+     - Use to install powershell commandlets in |windows|.
 
 First install the |chef client|, and then enable it to run as a service. For example:
 
